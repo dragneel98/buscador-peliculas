@@ -20,10 +20,22 @@ header{
     justify-content: center;
     align-items: center;
 }
+.checkbox{
+    margin: 0 1em;
+}
 .form{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    min-width: 350px;
 }
 .main{
     display: flex;
